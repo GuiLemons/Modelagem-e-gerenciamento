@@ -1,0 +1,31 @@
+Para especificação dos requisitos vamos descrever:
+
+O nome do requisito
+o Ator
+Pré condições
+Fluxos normal, alternativos e de erro
+Pós condição
+
+Exemplo:
+
+Nome: Pagamento com cartão de credito
+Ator: Cliente
+Pré condição: Ter um cartão cadastrado e validado pelo sistema
+
+Fluxo normal
+1 - Cliente seleciona a opção "cartão de credito" no momento do pagamento
+2 - Escolhe um entre os cartões cadastrados
+3 - coloca o codigo de segurança
+4 - escolhe o número de parcelas
+5 - Clica em comprar
+
+Fluxo alternativo:
+Não se aplica
+
+Fluxo de erro
+1 - cartão não liberado
+2 - exibe-se mensagem de erro e solicita-se que cliente escolha outro método de pagamento
+
+Pós condição
+compra registrada no sistema;
+enviar email para cliente
